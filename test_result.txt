@@ -1,0 +1,25 @@
+Progress: 1 finished (of 1)
+FAILPrivateBankTest (test/PrivateBank_test.sol)
+✘ Test deposit
+Error Message:
+"Transaction has been reverted by the EVM: {"transactionHash":"0x8117f37b44501f7e561bf941ad6905726c5a5a4d486f4683b4ad251c5625c209","transactionIndex":"0","blockHash":"0x0e010d352dd30f7d149f93fac008a254a04b51133c302e2bcd6fb0de39e933bb","blockNumber":"90","gasUsed":"32898","cumulativeGasUsed":"32898","logs":[],"status":"0","to":"0xB25f1f0B4653b4e104f7Fbd64Ff183e23CdBa582"}"
+✘ Test withdraw
+Error Message:
+"Transaction has been reverted by the EVM: {"transactionHash":"0xfb6313163291ca0433967c8f541b55ead08c1317de2ed436a39df39e216257c6","transactionIndex":"0","blockHash":"0x48e1e6113711726b5bcb9ee11fbc43afa9e0fb6ea3c14be44f1f0d3ea182b271","blockNumber":"92","gasUsed":"32920","cumulativeGasUsed":"32920","logs":[],"status":"0","to":"0xB25f1f0B4653b4e104f7Fbd64Ff183e23CdBa582"}"
+✘ Test get balance
+Error Message:
+"Transaction has been reverted by the EVM: {"transactionHash":"0x2a4212c08095d3d755923f528a624b144d500ebf42b17fe6bc207b5965c33e2e","transactionIndex":"0","blockHash":"0xb07afacca4383b43daae6742dafca4487d42510769adf04b13319b707c59737e","blockNumber":"94","gasUsed":"43049","cumulativeGasUsed":"43049","logs":[],"status":"0","to":"0xB25f1f0B4653b4e104f7Fbd64Ff183e23CdBa582"}"
+✘ Test get user balance
+Error Message:
+"Transaction has been reverted by the EVM: {"transactionHash":"0x1f5a0fd2569ce7484c130e3263afe7718ad611fe85312249a0c88ebb2abe7f4c","transactionIndex":"0","blockHash":"0x99dcbd1da3297157011542cc2444805dd65da19771cf5c06b35d7c91cd7bf69f","blockNumber":"96","gasUsed":"47986","cumulativeGasUsed":"47986","logs":[],"status":"0","to":"0xB25f1f0B4653b4e104f7Fbd64Ff183e23CdBa582"}"
+✓ Test withdraw insufficient balance
+✘ Test multiple deposits withdrawals
+Error Message:
+"Transaction has been reverted by the EVM: {"transactionHash":"0x98e4a6c91b1aeeea8bc38080b43e9a82cf9eef50218e1bf01b42da2aa6bb762c","transactionIndex":"0","blockHash":"0xb542b10b9718626683e6152fbaf36a6abda4bce286b4199b2726b86f9c5af40c","blockNumber":"100","gasUsed":"32899","cumulativeGasUsed":"32899","logs":[],"status":"0","to":"0xB25f1f0B4653b4e104f7Fbd64Ff183e23CdBa582"}"
+Result for test/PrivateBank_test.sol
+Passed: 1
+Failed: 5
+Time Taken: 0.10s
+✘ Test different user
+Error Message:
+"Transaction has been reverted by the EVM: {"transactionHash":"0x7761a47aaf10a7991393661375305a8a579455dd64099f9fdd2380acfbf150ca","transactionIndex":"0","blockHash":"0x2daa2b98fc15059e126d0ef0e56dd7ffc3ceab5bbad65683dd7d96d46d8e3da6","blockNumber":"102","gasUsed":"32931","cumulativeGasUsed":"32931","logs":[],"status":"0","to":"0xB25f1f0B4653b4e104f7Fbd64Ff183e23CdBa582"}"
