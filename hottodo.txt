@@ -1,0 +1,43 @@
+Step 1: Setting Up GitHub
+Create a GitHub Account: If you don't have one, go to GitHub and sign up.
+
+Importance: GitHub is a platform for version control and collaboration. It allows you to store your code and collaborate with others.
+Create a New Repository: After logging in, create a new repository for your project.
+
+Navigate to: Repositories > New
+Name your repository: PrivateBankTests
+Initialize with README: Check the box to initialize the repository with a README file.
+Importance: A GitHub repository helps you organize your project, track changes, and share it with others.
+Step 2: Setting Up Remix
+Open Remix: Go to Remix IDE.
+
+Importance: Remix is an online IDE that allows you to write, test, and deploy Solidity smart contracts without needing to install anything locally.
+Create a New File: Create a new file in Remix and name it PrivateBank.sol.
+
+Importance: This is where you'll write your smart contract code.
+Copy the Contract Code: Copy the provided PrivateBank.sol code into the newly created file in Remix.
+
+Step 3: Writing Comprehensive Tests
+Create a New File for Tests: In Remix, create a new file named PrivateBank_test.sol.
+
+Write Comprehensive Tests: Add the following test code in PrivateBank_test.sol. These tests will cover various scenarios, including edge cases.
+
+Step 4: Running Tests
+Compile the Contract: In Remix, go to the Solidity compiler tab, select the appropriate compiler version (0.8.20+commit), and compile PrivateBank.sol.
+
+Importance: Compiling ensures that the contract is free of syntax errors and ready to be deployed or tested.
+Run the Tests: Go to the Solidity Unit Testing tab and run the tests in PrivateBank_test.sol.
+
+Importance: Running tests validates the functionality of your contract, ensuring that it behaves as expected under various scenarios.
+Step 5: Publishing on GitHub Manually
+Download the Files: In Remix, right-click on the PrivateBank.sol and PrivateBank_test.sol files, and choose Download. This will save the files to your local machine.
+
+Clone Your Repository: Clone the GitHub repository you created earlier to your local machine if you haven't done so already.
+
+Add Contract and Test Files: Move the downloaded PrivateBank.sol and PrivateBank_test.sol files to your local repository directory.
+
+Commit and Push Changes:
+
+Update README: Edit the README.md file in your repository to include instructions on how to run the tests.
+
+  test code uploaded.
